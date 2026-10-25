@@ -46,6 +46,8 @@ body {
     border: 1px solid transparent ;
 }
 
+
+
 /* MARQUEEE */
 
 .marquee {
@@ -87,6 +89,7 @@ body {
 }
 
 /* --------------------------------------------------- VARIABLES OF THE WEB --------------------------------------------------- */
+
 :root {
     --text: "Inter";
     --grey: #747474;
@@ -174,8 +177,14 @@ body {
     }
 }
 
+.symbol {
+    color: #000;
+    font-size: 20px;
+    opacity: 0.5;
+}
 
-/* ----------- INITIAL ANIMATIONS ----------- */ 
+/* -------- INITIAL ANIMATIONS -------- */
+
 .fadeIn {
     opacity: 0;
     transform: translate3d(0, 35px, 0);
