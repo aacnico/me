@@ -68,7 +68,7 @@ const observer = new IntersectionObserver((entries) => {
     });
 
 }, {
-    rootMargin: "0px 0px -15% 0px"
+    rootMargin: "0px 0px -10% 0px"
 });
 
 // OBSERVAR AMBOS TIPOS DE ELEMENTOS

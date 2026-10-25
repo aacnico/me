@@ -356,8 +356,6 @@ header nav ul li, header div ul li {
     flex-direction: column;
 }
 
-.area1 {
-}
 
 .area1 img {
     width: auto;
@@ -746,10 +744,6 @@ header nav ul li, header div ul li {
         padding: 0;
         margin: 0;
         font-size: 22px;
-    }
-
-    .extra {
-        
     }
 
 
