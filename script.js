@@ -28,16 +28,13 @@ buttonsText.forEach(text => {
 const clock = document.getElementById("clock");
 const date = document.getElementById("date");
 
-
 function updateDateTime() {
     const now = new Date();
 
-    // Hora
     clock.textContent = now.toLocaleTimeString("en-GB", {
         hour12: false
     });
 
-    // Fecha
     const weekday = now.toLocaleDateString("en-US", {
         weekday: "long"
     });
@@ -51,11 +48,10 @@ function updateDateTime() {
 updateDateTime();
 setInterval(updateDateTime, 1000);
 
-// ELEMENTOS CON ANIMACIÓN
+
 const fadeElements = document.querySelectorAll(".fadeIn");
 const textAnimations = document.querySelectorAll(".textAn");
 
-// ANIMACIÓN AL HACER SCROLL
 const observer = new IntersectionObserver((entries) => {
 
     entries.forEach(entry => {
@@ -71,6 +67,5 @@ const observer = new IntersectionObserver((entries) => {
     rootMargin: "0px 0px -10% 0px"
 });
 
-// OBSERVAR AMBOS TIPOS DE ELEMENTOS
 fadeElements.forEach(element => observer.observe(element));
 textAnimations.forEach(element => observer.observe(element));
