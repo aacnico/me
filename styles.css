@@ -1,4 +1,9 @@
 /* --------------------------------------------------- GENERAL SETTINGS --------------------------------------------------- */
+
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,32 +13,22 @@
     font-family: var(--text);
     color: aliceblue;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
 }
 
-.symbol {
-    color: #000;
-    font-size: 20px;
-    opacity: 0.5;
-}
-
-
-/* Ancho de la barra */
 ::-webkit-scrollbar {
     width: 5px;
 }
 
-/* Fondo del scroll */
 ::-webkit-scrollbar-track {
     background: #000;
 }
 
-/* Barra que se desplaza */
 ::-webkit-scrollbar-thumb {
     background: var(--contrast);
     border-radius: 10px;
 }
 
-/* Cuando pasas el mouse */
 ::-webkit-scrollbar-thumb:hover {
     background: var(--contrast);
 }
@@ -50,8 +45,6 @@ body {
 #hero, #about, #services, #creative, #cta, #works, #footer {
     border: 1px solid transparent ;
 }
-
-
 
 /* MARQUEEE */
 
@@ -94,7 +87,6 @@ body {
 }
 
 /* --------------------------------------------------- VARIABLES OF THE WEB --------------------------------------------------- */
-/* 1b82be*/
 :root {
     --text: "Inter";
     --grey: #747474;
@@ -182,6 +174,8 @@ body {
     }
 }
 
+
+/* ----------- INITIAL ANIMATIONS ----------- */ 
 .fadeIn {
     opacity: 0;
     transform: translate3d(0, 35px, 0);
