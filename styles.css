@@ -42,7 +42,7 @@
 body {
     background-image:
     linear-gradient(#0000009d,#0000009d),
-    url(assets/images/compagnons-ye8lWOjNUzI-unsplash.webp);
+    url(assets/images/background.webp);
     background-attachment: fixed;
     background-size: cover;
 }
